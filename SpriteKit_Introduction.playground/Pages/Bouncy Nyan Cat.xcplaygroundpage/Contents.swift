@@ -14,13 +14,19 @@ nyanCat.setScale(8.0)
 
 //: ## Insert Happiness to Play Again
 //: To show how happy Nyan Cat is, let's are run an action that repeats a sequence of Nyan Cat going up and down for ever
-let actionMoveUp = SKAction.moveBy(x: 0, y: 10, duration: 0.15)
-let actionMoveDown = SKAction.moveBy(x: 0, y: -10, duration: 0.15)
+let actionMoveUp = SKAction.moveBy(x: 0, y: 20, duration: 0.15)
+let actionMoveDown = SKAction.moveBy(x: 0, y: -20, duration: 0.15)
 let actionSequence = SKAction.sequence([actionMoveUp, actionMoveDown])
 let actionRepeat = SKAction.repeatForever(actionSequence)
 nyanCat.run(actionRepeat)
 nyanCat.zPosition = 10  // Ensure sprite is above background
 scene.addChild(nyanCat) // Add to the scene
+
+//adding dragon
+let dragon = SKSpriteNode(imageNamed: "Dragon")
+dragon.position = CGPoint(x: frame.size.width / 4, y: frame.size.height / 2)
+
+scene.addChild(dragon)
 
 //: And show the scene in the liveView
 
