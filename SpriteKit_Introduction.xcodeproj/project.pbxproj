@@ -6,83 +6,19 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0E01FE9C1FE9697000CBA5D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01FE9B1FE9697000CBA5D7 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0E01FE961FE9697000CBA5D7 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0E01FE981FE9697000CBA5D7 /* SpriteKit_Introduction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpriteKit_Introduction; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E01FE9B1FE9697000CBA5D7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0E01FEA21FE9699000CBA5D7 /* SpriteKit_Introduction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SpriteKit_Introduction.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0E01FE951FE9697000CBA5D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0E01FE8F1FE9696F00CBA5D7 = {
 			isa = PBXGroup;
 			children = (
-				0E01FE9A1FE9697000CBA5D7 /* SpriteKit_Introduction */,
-				0E01FE991FE9697000CBA5D7 /* Products */,
+				0E01FEA21FE9699000CBA5D7 /* SpriteKit_Introduction.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		0E01FE991FE9697000CBA5D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0E01FE981FE9697000CBA5D7 /* SpriteKit_Introduction */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0E01FE9A1FE9697000CBA5D7 /* SpriteKit_Introduction */ = {
-			isa = PBXGroup;
-			children = (
-				0E01FE9B1FE9697000CBA5D7 /* main.swift */,
-			);
-			path = SpriteKit_Introduction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		0E01FE971FE9697000CBA5D7 /* SpriteKit_Introduction */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E01FE9F1FE9697000CBA5D7 /* Build configuration list for PBXNativeTarget "SpriteKit_Introduction" */;
-			buildPhases = (
-				0E01FE941FE9697000CBA5D7 /* Sources */,
-				0E01FE951FE9697000CBA5D7 /* Frameworks */,
-				0E01FE961FE9697000CBA5D7 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SpriteKit_Introduction;
-			productName = SpriteKit_Introduction;
-			productReference = 0E01FE981FE9697000CBA5D7 /* SpriteKit_Introduction */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0E01FE901FE9696F00CBA5D7 /* Project object */ = {
@@ -91,12 +27,6 @@
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Gordon, Russell";
-				TargetAttributes = {
-					0E01FE971FE9697000CBA5D7 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 0E01FE931FE9696F00CBA5D7 /* Build configuration list for PBXProject "SpriteKit_Introduction" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -106,25 +36,13 @@
 				en,
 			);
 			mainGroup = 0E01FE8F1FE9696F00CBA5D7;
-			productRefGroup = 0E01FE991FE9697000CBA5D7 /* Products */;
+			productRefGroup = 0E01FE8F1FE9696F00CBA5D7;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E01FE971FE9697000CBA5D7 /* SpriteKit_Introduction */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0E01FE941FE9697000CBA5D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E01FE9C1FE9697000CBA5D7 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		0E01FE9D1FE9697000CBA5D7 /* Debug */ = {
@@ -233,26 +151,6 @@
 			};
 			name = Release;
 		};
-		0E01FEA01FE9697000CBA5D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		0E01FEA11FE9697000CBA5D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -261,15 +159,6 @@
 			buildConfigurations = (
 				0E01FE9D1FE9697000CBA5D7 /* Debug */,
 				0E01FE9E1FE9697000CBA5D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0E01FE9F1FE9697000CBA5D7 /* Build configuration list for PBXNativeTarget "SpriteKit_Introduction" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E01FEA01FE9697000CBA5D7 /* Debug */,
-				0E01FEA11FE9697000CBA5D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
